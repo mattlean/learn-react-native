@@ -6,9 +6,14 @@ export default function LittleLemonFooter() {
     <View
       style={{
         backgroundColor: '#F4CE14',
-      }}
-    >
-      <Text style={{ paddingHorizontal: 40, fontStyle: 'italic' }}>
+        marginBottom: 10
+      }}>
+      <Text
+        style={{
+          fontSize: 18,
+          color: 'black',
+          textAlign: 'center'
+        }}>
         All rights reserved by Little Lemon, 2022
       </Text>
     </View>
