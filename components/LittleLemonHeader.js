@@ -3,9 +3,19 @@ import { View, Text } from 'react-native';
     
 export default function LittleLemonHeader() {
   return (
-    <View style={{ flex: 0.2, backgroundColor: '#F4CE14' }}>
-      <Text style={{ padding: 40, fontSize: 30, color: 'black' }}>
-        Welcome to Little Lemon
+    <View
+      style={{
+        backgroundColor: '#F4CE14',
+        flex: 0.1
+      }}>
+      <Text
+        style={{
+          color: 'black',
+          fontSize: 30,
+          padding: 20,
+          textAlign: 'center'
+        }}>
+        Little Lemon
       </Text>
     </View>
   );

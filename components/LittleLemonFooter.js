@@ -10,8 +10,8 @@ export default function LittleLemonFooter() {
       }}>
       <Text
         style={{
-          fontSize: 18,
           color: 'black',
+          fontSize: 18,
           textAlign: 'center'
         }}>
         All rights reserved by Little Lemon, 2022
