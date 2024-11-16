@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 
 export default function WelcomeScreen() {
   return (
-    <View
+    <ScrollView
+      indicatorStyle="white"
       style={{ flex: 1 }}>
       <Text
         style={{
@@ -22,8 +23,10 @@ export default function WelcomeScreen() {
           padding: 20,
           textAlign: 'center'
         }}>
-        Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!
+        {`Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!\n
+Little Lemon? is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!\n
+Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. We would love to hear more about your experience with us!`}
       </Text>
-    </View>
+    </ScrollView>
   );
 }
