@@ -1,13 +1,11 @@
 import * as React from 'react';  
 import { View, Text } from 'react-native';
+import styles from './style';
     
 export default function LittleLemonHeader() {
   return (
     <View
-      style={{
-        backgroundColor: '#F4CE14',
-        flex: 0.1
-      }}>
+      style={styles.header}>
       <Text
         style={{
           color: 'black',
